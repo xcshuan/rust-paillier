@@ -9,7 +9,6 @@ categories = ["cryptography", "algorithms"]
 keywords = ["paillier", "homomorphic", "encryption", "zero-knowledge", "cryptoagorithms"]
 
 [dependencies]
-rayon = "1.1"
 serde = { version = "1.0", features = ["derive"] }
 curv-kzen = { version = "0.9", default-features = false }
 
